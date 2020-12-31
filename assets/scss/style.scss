@@ -33,11 +33,31 @@ $Yg: "游ゴシック体",YuGothic,"游ゴシック","Yu Gothic","メイリオ",
 .img{
 	&__group{
 		svg{
+			filter: drop-shadow( 3px 3px 2px rgba(255, 255, 0, .3));
 			path{
 				stroke-dasharray: 50;
 				animation: dash 10s linear infinite;
 				stroke: #ffe652;
 				stroke-width: 2;
+			}
+		}
+		// color team
+
+		.color{
+			&-01{
+				fill: #46af37;
+			}
+			&-02{
+				fill: #fac800;
+			}
+			&-03{
+				fill: #3cbee6;
+			}
+			&-04{
+				fill: #dc1e87;
+			}
+			&-05{
+				fill: #f07800;
 			}
 		}
 	}
