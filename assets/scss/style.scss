@@ -83,10 +83,10 @@ h1{
 	position:absolute;
 	left: 50%;
     transform: translate(-50%, 0);
-    top: 30%;
+    top: 40%;
+    opacity: 0;
 	img{
-		max-width: 60px;
-		width: 100%;
+		max-width: 900px;
 		text-align: center;
 	}
 	img.inkan{
@@ -94,6 +94,52 @@ h1{
 		width: 100%;
 		padding-left:20px;
 	}
+
+	&:before{
+		content: "";
+	    display: block;
+	    position: absolute;
+	    z-index: 2;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: #0a0a22;
+	    transform: translateZ(0) scaleX(0);
+	}
+	&.is-shown{
+		opacity: 1;
+		&:before{
+
+		    animation: mask 2s;
+		    
+		    animation-iteration-count: 1;
+		    
+		    animation-fill-mode: forwards;
+		}
+	}
+}
+
+@keyframes mask {
+  0% {
+    transform-origin: left;
+    transform: scaleX(0) translateZ(0);
+    animation-timing-function: cubic-bezier(0.9, 0, 0.1, 1);
+  }
+  0.0001% {
+    transform-origin: left;
+  }
+  50% {
+    transform-origin: left;
+    transform: scaleX(1) translateZ(0);
+  }
+  50.0001% {
+    transform-origin: right;
+  }
+  100% {
+    transform-origin: right;
+    transform: scaleX(0) translateZ(0);
+  }
 }
 @keyframes fadeInItem {
   0% {
@@ -105,7 +151,7 @@ h1{
   opacity: 1;  }
 
 .js-slogan{
-	opacity: 0;
+	
 }
 .js-slogan{
 	&.is-shown{
@@ -239,7 +285,7 @@ h1{
 
 // section box
 .box__section{
-	padding: 150px 0 120px 0;
+	padding: 80px 0 180px 0;
 	background-color: #d1d1d1;
 	overflow: hidden;
 	h2{
@@ -247,9 +293,9 @@ h1{
     	color: #000;
     	font-family: $Yg;
     	position: relative;
-    	padding-left: 50px;
     	display: inline-block;
-    	margin-bottom: 150px;
+    	margin-bottom:20px;
+    	line-height: 1.6;
     }
 }
 @keyframes voice-pulse {
@@ -305,9 +351,12 @@ h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
 
     @media screen and (max-width: 768px) {
-        display: block;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -492,24 +541,24 @@ h1{
             float: right;
         }
 
-        &.is-happy {
+       /* &.is-happy {
             .voice-col-outer, .voice-col-inner {
-                width: 27rem;
-                height: 20rem;
+                width: 7rem;
+                height: 7rem;
             }
         }
 
         &.is-hard {
             .voice-col-outer, .voice-col-inner {
-                width: 22rem;
-                height: 16rem;
+                width: 7rem;
+                height: 7rem;
             }
         }
 
         &.is-love {
             .voice-col-outer, .voice-col-inner {
-                width: 26rem;
-                height: 16rem;
+                width: 7rem;
+                height: 7rem;
             }
         }
 
@@ -518,8 +567,8 @@ h1{
                 top: 4rem;
             }
             .voice-col-outer, .voice-col-inner {
-                width: 30rem;
-                height: 19rem;
+                width: 7rem;
+                height: 7rem;
             }
             .voice-col-inner {
                 padding: 3rem 5rem 2rem;
@@ -528,8 +577,8 @@ h1{
 
         &.is-private {
             .voice-col-outer, .voice-col-inner {
-                width: 27rem;
-                height: 16.5rem;
+                width: 7rem;
+                height: 7rem;
             }
         }
 
@@ -538,13 +587,13 @@ h1{
                 top: 3.5rem;
             }
             .voice-col-outer, .voice-col-inner {
-                width: 27rem;
-                height: 17.8rem;
+                width: 7rem;
+                height: 7rem;
             }
             .voice-col-inner {
                 padding: 4rem;
             }
-        }
+        }*/
     }
 }
 
@@ -614,6 +663,15 @@ h1{
 		}
 	}
 	&.is-gap{
+		img{
+			max-width: 180px;
+			width: 100%;
+		}
+		.voice-col-inner{
+			width: 200px;
+		}
+	}
+	&.is-power{
 		img{
 			max-width: 180px;
 			width: 100%;
@@ -822,3 +880,82 @@ h1{
   100% {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+
+.sp-only{
+	display: none;
+}
+@media(max-width: 768px){
+	.pc-only{
+		display: none;
+	}
+	.sp-only{
+		display: block;
+	}
+	.wrapper{
+		overflow: hidden;
+	}
+	h1 img{
+		max-width: 185px;
+		top: 20px;
+		left: 20px;
+	}
+	.slogan img{
+		max-width: 22vw;
+	}
+	.slogan{
+		top: 15%;
+	}
+	canvas.particles-js-canvas-el{
+		width: 250% !important;
+		height: 100%;
+		overflow: hidden;
+	}
+	.box__section h2{
+		padding-left:15px;
+		padding-right: 15px; 
+	}
+	.voice-col{
+		width: 48%;
+		margin-bottom: 100px;
+	}
+	.box__section{
+		padding-bottom: 80px;
+	}
+	.voice-col{
+		&.is-happy {
+			.voice-col-inner{
+				width: 100%;
+			}
+		}
+		&.is-hard {
+			.voice-col-inner{
+				width: 100%;
+			}
+		}
+		&.is-private {
+			.voice-col-inner{
+				width: 100%;
+			}
+		}
+		&.is-power {
+			.voice-col-inner{
+				width: 100%;
+			}
+		}
+		&.is-gap {
+			.voice-col-inner{
+				width: 100%;
+			}
+		}
+		&.is-power {
+			.voice-col-inner{
+				width: 100%;
+			}
+		}
+	}
+}
+@media(min-width: 768px) and (max-width: 1023px){
+	.slogan img{
+		max-width: 17vw;
+	}
+}

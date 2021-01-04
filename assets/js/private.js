@@ -6,7 +6,7 @@ $(function(){
         var href= $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
         if(window.innerWidth >= 901){
-            var position = target.offset().top + 110;
+            var position = target.offset().top + 80;
             $('body,html').animate({scrollTop:position}, speed, 'swing');            
         }else{
             var position = target.offset().top - 70;
@@ -16,13 +16,15 @@ $(function(){
 });
 
 $(document).ready(function(){
+
+	setTimeout(function(){ 
+    $(".slogan").addClass("is-shown"); 
+  },1000)
     
-  setTimeout(function(){ 
-    $(".js-slogan").addClass("is-shown"); 
-  },500)
+
   setTimeout(function(){ 
     $(".js-inkan").addClass("is-shown"); 
-  },1400)
+  },1900)
 });
 
 
