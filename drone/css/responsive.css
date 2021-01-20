@@ -1,0 +1,259 @@
+@media (max-width: 1200px) and (min-width: 1024px) {
+    body .container-fluid {
+        padding: 0 30px;
+    }
+
+    body .container-fluid .row {
+        margin: 0 -15px !important;
+    }
+
+    body .container-fluid .row .col-md-6 {
+        padding: 0 15px !important;
+    }
+    .list-video iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .avarta-logo-rout img {
+        width: 400px;
+    }
+
+    .avarta-logo-abs img {
+        width: 400px;
+    }
+
+    .header-menu ul a {
+        min-height: 100px;
+    }
+
+    .header-menu .logo {
+        padding-left: 30px;
+        top: 7px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .title h2 {
+        font-size: 25px;
+    }
+
+    body .container-fluid {
+        padding: 0 30px;
+    }
+
+    .list-video .row {
+        margin: 0 -15px;
+    }
+
+    .list-video .row .col-md-6 {
+        padding: 0 15px;
+    }
+
+    .list-video iframe {
+        height: 187px;
+    }
+
+    .list-maps .col-md-6 {
+        padding: 0 15px;
+    }
+
+    .list-maps .row {
+        margin: 0 -15px;
+    }
+
+    .item-maps iframe {
+        height: 200px;
+    }
+
+    .list-form .col-md-6, .list-form .col-md-12 {
+        padding: 0 15px;
+    }
+
+    .list-form .row {
+        margin: 0 -15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-menu ul li {
+        flex: 0 0 50%;
+    }
+
+    .header-menu ul a {
+        width: 100%;
+        min-width: auto;
+        font-size: 12px;
+        min-height: auto;
+        height: 66px;
+    }
+
+    .header-menu .container-fluid {
+        padding: 0 15px;
+    }
+
+    .header-menu .logo {
+        padding-left: 0;
+        top: 7px;
+    }
+
+    .header-menu ul {
+        position: relative;
+        right: -15px;
+    }
+
+    img.img-fluid.logo-abs {
+        height: 50px;
+    }
+
+    img.img-fluid.logo-rel {
+        height: 50px;
+    }
+
+    .avarta-logo-abs img {
+        width: 250px;
+    }
+
+    .avarta-logo-rout img {
+        width: 250px;
+    }
+
+    .banner-logo:after {
+        height: 150px;
+    }
+
+    .banner-logo {
+        padding: 20px 0;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .btn-slide.swiper-button-next {
+        right: 0;
+    }
+
+    .btn-slide.swiper-button-prev {
+        left: 0;
+    }
+
+    .btn-slide {
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    .box-showroom {
+        padding-bottom: 0;
+    }
+
+    .title span:after {
+        right: -40px;
+        transform: scale(.7);
+    }
+
+    .title span:before {
+        transform: scale(.7);
+        left: -30px;
+    }
+
+    body .container-fluid {
+        padding: 0 15px;
+    }
+
+    .list-video iframe {
+        height: 195px;
+    }
+
+    .list-video {}
+
+    .list-video .row {
+        margin: 0 -15px;
+    }
+
+    .list-video .row .col-md-6 {
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+
+    .list-video .row .col-md-6:last-child {
+        margin-bottom: 0;
+    }
+
+    .list-maps .col-md-6 {
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+
+    .list-maps .row {
+        margin: 0 -15px;
+    }
+
+    .item-maps iframe {
+        height: 185px;
+    }
+
+    .list-maps .col-md-6:last-child {
+        margin-bottom: 0;
+    }
+
+    .content-form .item input[type="text"] {
+        height: 45px;
+        font-size: 14px;
+        padding-top: 4px;
+    }
+
+    .list-form .item textarea {
+        height: 150px;
+        font-size: 14px;
+    }
+
+    .box-contact {
+        padding-bottom: 50px;
+    }
+
+    .btn-form {
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .content-form .item {
+        display: block;
+    }
+
+    .content-form .item label br {
+        display: none;
+    }
+
+    .content-form .item select {
+        height: 45px;
+    }
+
+    .content-form ul li {
+        padding: 0 5px;
+    }
+
+    .content-form ul {
+        margin: 0 -5px;
+    }
+
+    .list-form .col-md-6, .list-form .col-md-12 {
+        padding: 0 15px;
+    }
+
+    .list-form .row {
+        margin: 0 -15px;
+    }
+    .input-group.date input {
+        height: 45px;
+        font-size: 14px;
+    }
+}
