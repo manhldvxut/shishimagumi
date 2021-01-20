@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shishima - Fukuoka - All Staff - Route 44 - Team</title>
     <!--link css-->
-    <link rel="stylesheet" type="text/css" title="" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/bootstrap-datetimepicker.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/lightbox.min.css"> 
-    <link rel="stylesheet" type="text/css" title="" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/style.css">
-    <link rel="stylesheet" type="text/css" title="" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/lightbox.min.css"> 
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/animate.css">
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/style.css">
+    <link rel="stylesheet" type="text/css" title="" href="/drone/css/responsive.css">
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="/drone/js/jquery.min.js"></script>
 </head>
 <body>  
     <header>
@@ -24,8 +24,8 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 col-6">
                         <div class="logo"><a href="">
-                            <img src="images/logo/logo-1.png" class="img-fluid logo-rel" alt="">
-                            <img src="images/logo/logo-2.png" class="img-fluid logo-abs" alt="">
+                            <img src="/drone/images/logo/logo-1.png" class="img-fluid logo-rel" alt="">
+                            <img src="/drone/images/logo/logo-2.png" class="img-fluid logo-abs" alt="">
                         </a></div>
                     </div>
                     <div class="col-md-6 col-6 text-right">

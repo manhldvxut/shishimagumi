@@ -3,9 +3,9 @@
 	<section class="banner-logo">
 		<div class="container">
 			<div class="box-logo text-center wow pulse" data-wow-iteration="5" data-wow-duration="0.25s">
-				<div class="avarta-logo-rout"><img src="images/logo-banner/logo-bn-1.png" alt=""></div>
-				<div class="avarta-logo-abs"><img src="images/logo-banner/logo-bn-2.png" alt=""></div>
-				<!-- <img src="images/logo-banner.png" class="img-fluid" alt="">  -->
+				<div class="avarta-logo-rout"><img src="drone/images/logo-banner/logo-bn-1.png" alt=""></div>
+				<div class="avarta-logo-abs"><img src="drone/images/logo-banner/logo-bn-2.png" alt=""></div>
+				<!-- <img src="drone/images/logo-banner.png" class="img-fluid" alt="">  -->
 			</div>
 		</div>
 	</section>
@@ -34,16 +34,16 @@
 				<div class="swiper-container gall-slide">
 					<div class="swiper-wrapper">
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					</div>
 					<div class="btn-slide swiper-button-prev"><a href="javascript:void(0)"><i class="fa fa-angle-left"></i></a></div>
