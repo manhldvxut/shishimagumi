@@ -345,3 +345,10 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+@media (max-width: 767px) {
+  .bootstrap-datetimepicker-widget.dropdown-menu {
+    left: 0 !important;
+    position: absolute;
+  }
+}

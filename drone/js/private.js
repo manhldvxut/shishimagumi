@@ -1,6 +1,5 @@
 
 var swiper = new Swiper('.gall-slide', {
-  // pagination: '.swiper-pagination', 
   slidesPerView: 2,
   centeredSlides: true,
   paginationClickable: true,
@@ -12,11 +11,17 @@ var swiper = new Swiper('.gall-slide', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev', 
   },
+  breakpoints: {
+      1023: {
+        slidesPerView: 2,
+        spaceBetween: 5
+      },
+      767: {
+        slidesPerView: 1.2,
+        spaceBetween: 5
+      }
+    }
 });
-
-// $( ".clc-child" ).click(function() {
-//   $(this).next().toggle();
-// });
 
 jQuery(function($) {
   var doAnimations = function() {

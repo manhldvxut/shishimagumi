@@ -10,12 +10,12 @@
 </footer>
  
 <!--Link js--> 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
-<script type="text/javascript" src="drone/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/v4.0.0/src/js/bootstrap-datetimepicker.js"></script>
-<script type="text/javascript" src="drone/js/swiper.min.js"></script>
-<script type="text/javascript" src="drone/js/wow.min.js"></script>
-<script type="text/javascript" src="drone/js/fancybox.min.js"></script> 
-<script type="text/javascript" src="drone/js/private.js"></script> 
+<script type="text/javascript" src="js/moment-with-locales.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script> 
+<script type="text/javascript" src="js/private.js"></script> 
 </body>
-</html> 
+</html>   

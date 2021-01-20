@@ -16,6 +16,9 @@
 		a {
 			display: inline-flex;
 			position: relative;
+			.logo-rel {
+				animation: rout-logo 40s infinite;
+			}
 			.logo-abs {
 				position: absolute;
 			    left: 0;
