@@ -2,9 +2,8 @@
 <main>
 	<section class="banner-logo">
 		<div class="container">
-			<div class="box-logo text-center wow pulse" data-wow-iteration="5" data-wow-duration="0.25s">
-				<div class="avarta-logo-rout"><img src="drone/images/logo-banner/logo-bn-1.png" alt=""></div>
-				<div class="avarta-logo-abs"><img src="drone/images/logo-banner/logo-bn-2.png" alt=""></div>
+			<div class="box-logo text-center wow fadeIn">
+				<div class="avarta-logo-rout"><img src="drone/images/logo-banner/logo-banner.png" alt=""></div>
 				<!-- <img src="drone/images/logo-banner.png" class="img-fluid" alt="">  -->
 			</div>
 		</div>
@@ -14,13 +13,10 @@
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2><span>福岡どろーんズとは</span></h2>
 			</div>
-			<div class="content-desc text-center">
-				<p>ここに内容を入力してください。</p>
-				<p>ここに内容を入力してください。ここに内容を入力してください。</p>
-				<p>ここに内容を入力してください。ここに内容を入力してください。</p>
-				<p>ここに内容を入力してください。ここに内容を入力してください。</p>
-				<p>ここに内容を入力してください。</p>
-				<p>ここに内容を入力してください。ここに内容を入力してください。</p>
+			<div class="content-desc text-center wow fadeIn" data-wow-delay=".5s">
+				製品やサービスの販路拡大にまた情報収集やネットワークの構築などPRの場としてもお役立てください。<br>
+				また、ドローンのテクノロジー、マーケットなどの最新動向を国内外のキーパーソンが紹介する国際コンファレンスも例年、
+				ドローンを取り巻く現状の把握と近未来のヒントが満載というお声を数多くいただいています。
 				<!-- <p>ここに内容を入力してください。ここに内容を入力してください。</p> -->
 			</div>
 		</div>
@@ -30,20 +26,23 @@
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2><span>福岡どろーんズのギャラリー</span></h2>
 			</div>
-			<div class="box-slide wow fadeInUp wHighlight" data-wow-delay=".25s">
+			<div class="box-slide wow fadeIn" data-wow-delay=".25s">
 				<div class="swiper-container gall-slide">
 					<div class="swiper-wrapper">
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/fly01.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly01.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/fly02.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly02.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/fly03.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly03.png" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/showroom.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/showroom.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="drone/images/fly04.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly04.png" class="img-fluid w-100" alt=""></a></div>
+					    </div></div>
+					    <div class="swiper-slide"><div class="swiper-slide-container">
+					    	<div class="item"><a href="drone/images/fly05.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly05.jpg" class="img-fluid w-100" alt=""></a></div>
 					    </div></div>
 					</div>
 					<div class="btn-slide swiper-button-prev"><a href="javascript:void(0)"><i class="fa fa-angle-left"></i></a></div>
@@ -95,10 +94,10 @@
 					<label>性別<span>必須</span></label>
 					<div class="inp-right">
 						<ul>
-							<li>
+							<li class="radio__two">
 								<input type="radio" id="1001" name="sex-check" checked><label for="1001">男性</label>
 							</li>
-							<li>
+							<li class="radio__two">
 								<input type="radio" id="1002" name="sex-check"><label for="1002">女性</label>
 							</li>
 						</ul>
@@ -120,7 +119,7 @@
 					</div>
 				</div> -->
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
-					<label>予約時間<span>必須</span></label>
+					<label>日付<span>必須</span></label>
 					<div class="inp-right">
 						<ul>
 							<li> 
@@ -138,7 +137,7 @@
 					</div>
 				</div>
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
-					<label>予約期間<span>必須 </span></label>
+					<label>日付期間<span>必須 </span></label>
 					<div class="inp-right">
 						<ul>
 							<li>
@@ -151,20 +150,20 @@
 					</div>
 				</div>
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
-					<label>資格<span>必須</span></label>
+					<label>免許証<span>必須</span></label>
 					<div class="inp-right">
 						<ul>
-							<li>
+							<li class="radio__two">
 								<input type="radio" id="1003" name="check-b" checked><label for="1003">あり</label>
 							</li>
-							<li>
+							<li class="radio__two">
 								<input type="radio" id="1004" name="check-b"><label for="1004">なし</label>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
-					<label>アドレス <br>ローン<span>必須</span></label>
+					<label>場所<span>必須</span></label>
 					<div class="inp-right">
 						<select name="" id="">
 							<option value="">選択してください。</option>

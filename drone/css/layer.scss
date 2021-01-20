@@ -16,14 +16,16 @@
 		a {
 			display: inline-flex;
 			position: relative;
-			.logo-rel {
-				animation: rout-logo 40s infinite;
-			}
 			.logo-abs {
 				position: absolute;
 			    left: 0;
 			    top: 0;
 			}
+		}
+		img{
+			max-width: 72px;
+			width: 100%;
+			padding-top: 10px;
 		}
 	}
 	ul {
@@ -33,8 +35,8 @@
 		align-items: center;
 		a {
 			display: flex;
-			min-width: 180px;
-			min-height: 130px;
+			min-width: 160px;
+			min-height: 95px;
 			justify-content: center;
 			align-items: center;
 			color: #fff;
@@ -61,5 +63,13 @@ footer {
 		li {
 			padding: 4px 0;
 		}
+	}
+}
+// 
+.how-fukuoka{
+	.content-desc{
+		max-width: 650px;
+		margin: auto;
+		margin-bottom: 50px;
 	}
 }

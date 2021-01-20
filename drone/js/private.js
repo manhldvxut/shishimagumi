@@ -5,7 +5,7 @@ var swiper = new Swiper('.gall-slide', {
   paginationClickable: true,
   loop: true,
   direction: 'horizontal',
-  spaceBetween: 25,
+  spaceBetween: 20,
   slideToClickedSlide: true,
   navigation: {
     nextEl: '.swiper-button-next',

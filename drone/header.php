@@ -24,8 +24,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 col-6">
                         <div class="logo"><a href="">
-                            <img src="/drone/images/logo/logo-1.png" class="img-fluid logo-rel" alt="">
-                            <img src="/drone/images/logo/logo-2.png" class="img-fluid logo-abs" alt="">
+                            <img src="/drone/images/logo-banner/logo-banner.png" class="img-fluid logo-rel" alt="">
                         </a></div>
                     </div>
                     <div class="col-md-6 col-6 text-right">
