@@ -30,7 +30,7 @@
 
     .header-menu .logo {
         padding-left: 30px;
-        top: 7px;
+        /*top: 7px; */
     }
 
     body {
@@ -76,9 +76,28 @@
     .list-form .row {
         margin: 0 -15px;
     }
+    .box-showroom .item {
+        height: 300px;
+    }
+
+    .box-showroom .item img {
+        max-height: 300px;
+    }
+
+    .btn-slide.swiper-button-prev {
+        left: 21.5%;
+    }
+
+    .btn-slide.swiper-button-next {
+        right: 21.5%;
+    }
 }
 
 @media (max-width: 767px) {
+    .header-menu .logo img {
+        max-width: unset;
+        width: auto;
+    }
     .header-menu ul li {
         flex: 0 0 50%;
     }
@@ -97,7 +116,6 @@
 
     .header-menu .logo {
         padding-left: 0;
-        top: 7px;
     }
 
     .header-menu ul {
@@ -138,11 +156,11 @@
     }
 
     .btn-slide.swiper-button-next {
-        right: 0;
+        right: 2%;
     }
 
     .btn-slide.swiper-button-prev {
-        left: 0;
+        left: 2%;
     }
 
     .btn-slide {
@@ -255,5 +273,30 @@
     .input-group.date input {
         height: 45px;
         font-size: 14px;
+    }
+    .box-showroom .item {
+        height: 200px;
+    }
+
+    .box-showroom .item img {
+        max-height: 200px;
+        padding: 15px;
+    }
+    .content-form .item label {
+        display: block;
+        margin: 0 0 20px 0;
+    }
+    .loading-page {
+        height: calc(100vh + 150px);
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .btn-slide.swiper-button-next {
+        right: 5%;
+    }
+
+    .btn-slide.swiper-button-prev {
+        left: 5%;
     }
 }

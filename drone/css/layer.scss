@@ -1,3 +1,10 @@
+header {
+	transition: .6s ease-in !important;
+	margin-top: -100px;
+	&.load-active {
+		margin-top: 0;
+	}
+}
 .header-menu {
 	background: #fff;
 	transition: .3s all;
@@ -12,7 +19,9 @@
 	}
 	.logo {
 		padding-left: 50px;
-		position: relative;
+	    position: relative;
+	    display: flex;
+	    align-items: center;
 		a {
 			display: inline-flex;
 			position: relative;
@@ -25,7 +34,7 @@
 		img{
 			max-width: 72px;
 			width: 100%;
-			padding-top: 10px;
+			// padding-top: 10px; 
 		}
 	}
 	ul {

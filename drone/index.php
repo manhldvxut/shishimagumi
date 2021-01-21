@@ -3,8 +3,8 @@
 	<section class="banner-logo">
 		<div class="container">
 			<div class="box-logo text-center wow fadeIn">
-				<div class="avarta-logo-rout"><img src="drone/images/logo-banner/logo-banner.png" alt=""></div>
-				<!-- <img src="drone/images/logo-banner.png" class="img-fluid" alt="">  -->
+				<div class="avarta-logo-rout"><img src="../drone/images/logo-banner/logo-banner.png" alt=""></div>
+				<!-- <img src="../drone/images/logo-banner.png" class="img-fluid" alt="">  -->
 			</div>
 		</div>
 	</section>
@@ -30,19 +30,19 @@
 				<div class="swiper-container gall-slide">
 					<div class="swiper-wrapper">
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/fly01.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly01.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/fly01.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly01.png" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/fly02.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly02.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/fly02.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly02.png" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/fly03.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly03.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/fly03.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly03.png" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/fly04.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly04.png" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/fly04.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly04.png" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="drone/images/fly05.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="drone/images/fly05.jpg" class="img-fluid w-100" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/fly05.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly05.jpg" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					</div>
 					<div class="btn-slide swiper-button-prev"><a href="javascript:void(0)"><i class="fa fa-angle-left"></i></a></div>
@@ -128,10 +128,19 @@
 					          	</div>
 							</li>
 							<li>
-								<input type="text" placeholder="9:10"> 
-								<!-- <div class="input-group date" id="timepicker">
-					            	<input class="form-control text-center" placeholder="9:10"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
-					          	</div> -->
+								<!-- <input type="text" placeholder="9:10"> -->
+								<div class="select-choose">
+									<select name="" id="">
+										<option value="">10:00</option>
+										<option value="">11:00</option>
+										<option value="">12:00</option>
+										<option value="">13:00</option>
+										<option value="">14:00</option>
+										<option value="">15:00</option>
+										<option value="">16:00</option>
+										<option value="">17:00</option>
+									</select>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -145,7 +154,21 @@
 					            	<input class="form-control text-center" placeholder="10/01/2020"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
 					          	</div>
 							</li>
-							<li><input type="text" placeholder="19:00"></li>
+							<li>
+								<!-- <input type="text" placeholder="19:00">  -->
+								<div class="select-choose">
+									<select name="" id="">
+										<option value="">10:00</option>
+										<option value="">11:00</option>
+										<option value="">12:00</option>
+										<option value="">13:00</option>
+										<option value="">14:00</option>
+										<option value="">15:00</option>
+										<option value="">16:00</option>
+										<option value="">17:00</option>
+									</select>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -164,11 +187,11 @@
 				</div>
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
 					<label>場所<span>必須</span></label>
-					<div class="inp-right">
+					<div class="inp-right select-choose">
 						<select name="" id="">
 							<option value="">選択してください。</option>
-							<option value="">選択してください。 2</option>
-							<option value="">選択してください。 3</option>
+							<option value="">選択してください。2</option>
+							<option value="">選択してください。3</option>
 						</select>
 					</div>
 				</div>
@@ -177,18 +200,22 @@
 					<div class="inp-right">
 						<ul>
 							<li>
-								<select name="" id="">
-									<option value="">選択してください。</option>
-									<option value="">選択してください。 2</option>
-									<option value="">選択してください。 3</option>
-								</select>
+								<div class="select-choose">
+									<select name="" id="">
+										<option value="">選択してください。</option>
+										<option value="">選択してください。2</option>
+										<option value="">選択してください。3</option> 
+									</select>
+								</div>
 							</li>
-							<li>
-								<select name="" id="">
-									<option value="">値段処理</option>
-									<option value="">値段処理 2</option>
-									<option value="">値段処理 3</option>
-								</select>
+							<li>	
+								<div class="select-choose">
+									<select name="" id="">
+										<option value="">値段処理</option>
+										<option value="">値段処理 2</option>
+										<option value="">値段処理 3</option>
+									</select>
+								</div>
 							</li>
 						</ul>
 					</div>

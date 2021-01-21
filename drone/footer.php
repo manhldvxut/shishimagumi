@@ -10,12 +10,12 @@
 </footer>
  
 <!--Link js--> 
-<script type="text/javascript" src="/drone/js/moment-with-locales.js"></script>
-<script type="text/javascript" src="/drone/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/drone/js/bootstrap-datetimepicker.js"></script>
-<script type="text/javascript" src="/drone/js/swiper.min.js"></script>
-<script type="text/javascript" src="/drone/js/wow.min.js"></script>
-<script type="text/javascript" src="/drone/js/lightbox.min.js"></script> 
-<script type="text/javascript" src="/drone/js/private.js"></script> 
+<script type="text/javascript" src="../drone/js/moment-with-locales.js"></script>
+<script type="text/javascript" src="../drone/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../drone/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="../drone/js/swiper.min.js"></script>
+<script type="text/javascript" src="../drone/js/wow.min.js"></script>
+<script type="text/javascript" src="../drone/js/lightbox.min.js"></script> 
+<script type="text/javascript" src="../drone/js/private.js"></script> 
 </body>
 </html>   

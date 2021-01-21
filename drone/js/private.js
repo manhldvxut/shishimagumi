@@ -91,3 +91,14 @@ $("#datepicker-1").datetimepicker({
 //     down: "fa fa-chevron-down"
 //   }
 // });
+
+// setTimeout(function(){
+
+// }, 3000);
+$( document ).ready(function() {
+  $('.load-bar').addClass('active');
+  setTimeout(function(){
+    $('.loading-page, header').addClass('load-active');  
+    $('body').addClass('over-hidd');  
+  }, 1200);
+});
