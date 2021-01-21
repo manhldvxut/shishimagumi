@@ -29,8 +29,8 @@
                     </div>
                     <div class="col-md-6 col-6 text-right">
                         <ul>
-                            <li><a href="" class="cl-green">予約への</a></li>
-                            <li><a href="" class="cl-red">お問い合わせ</a></li>
+                            <li><a href="#revs" class="cl-green">予約への</a></li>
+                            <li><a href="#contact" class="cl-red">お問い合わせ</a></li>
                         </ul>
                     </div>
                 </div>

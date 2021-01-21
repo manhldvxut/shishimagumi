@@ -72,7 +72,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-form">
+	<section class="box-form" id="revs">
 		<div class="container">
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2><span>予約のお客様へ</span></h2>
@@ -223,7 +223,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-contact">
+	<section class="box-contact" id="contact">
 		<div class="container">
 			<div class="title text-center">
 				<h2><span>お問い合わせ</span></h2>

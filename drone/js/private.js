@@ -39,6 +39,23 @@ jQuery(function($) {
   };
   $(window).on('scroll', doAnimations);
   $(window).trigger('scroll');
+
+
+
+  /*scroll*/
+  $('a[href^="#"]').on('click', function(e){
+    e.preventDefault();
+    var speed = 400;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    if(window.innerWidth >= 768){
+        var position = target.offset().top - 160;
+        $('body,html').animate({scrollTop:position}, speed, 'swing');            
+    }else{
+        var position = target.offset().top - 170;
+        $('body,html').animate({scrollTop:position}, speed, 'swing');  
+    }
+  })
 }); 
 
 

@@ -362,7 +362,7 @@ footer {
 
 .content-form .item select {
   width: 100%;
-  height: 70px;
+  height: 50px;
   padding: 10px 15px;
   text-align: center;
   font-size: 17px;
@@ -427,18 +427,23 @@ footer {
 .btn-form {
   height: 70px;
   min-width: 250px;
+  margin: auto;
   background: #fff;
   border: 0;
-  font-size: 23px;
+  font-size: 16px;
   font-weight: bold;
-  padding-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   margin-top: 40px;
+  background: transparent linear-gradient(180deg, #FF7D00 0%, #D80539 100%);
+  border-radius: 120px;
+  color: #fff;
 }
 
 .btn-form:hover {
-  background: #e7141b;
-  color: #fff;
+  opacity: .8;
 }
 
 .content-form {
@@ -492,6 +497,10 @@ footer {
 
 .list-form .item .btn-form {
   margin-top: 0;
+}
+
+.box-contact .list-form .btn-form {
+  margin-top: 50px;
 }
 
 .box-contact {
@@ -785,11 +794,12 @@ footer {
 
 .input-group.date input {
   width: 100%;
-  height: 70px;
+  height: 50px;
   padding: 0 15px;
   font-size: 17px;
   font-weight: bold;
   border: 0;
+  border-radius: inherit;
 }
 
 .inp-right input::-moz-placeholder {
