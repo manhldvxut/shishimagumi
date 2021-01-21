@@ -211,12 +211,12 @@
 				<div class="row">
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".25s">
 						<div class="item-maps">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6901528874587!2d105.81922216540212!3d21.005053943961947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac838dc06afd%3A0x90f63b227e99114d!2zTmfDoyBUxrAgU-G7nywgxJDhu5FuZyDEkGEsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1610554848384!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.6177386463255!2d130.41399831516176!3d33.692960980705216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35418930b469e833%3A0x840821f4acd2353b!2z5pyJ6ZmQ5Lya56S-IOWbm-Wztue1hA!5e0!3m2!1svi!2sjp!4v1611233958116!5m2!1svi!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".35s">
 						<div class="item-maps">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831438.4632198572!2d139.2093891646948!3d35.509062682876625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVMO0a3nDtCwgTmjhuq10IELhuqNu!5e0!3m2!1svi!2s!4v1610555170121!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.7700746700953!2d130.50199941516297!3d33.740761180691855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354228370eb9f4c9%3A0x6bb9145e40b4a791!2s2496-1%20Mushirouchi%2C%20Koga%2C%20Fukuoka%20811-3121!5e0!3m2!1svi!2sjp!4v1611234046242!5m2!1svi!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div>
