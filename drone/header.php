@@ -4,7 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shishima - Fukuoka - All Staff - Route 44 - Team</title>
+    <title>Shishima - Fukuoka - All Staff - Route 44 - Team 福岡どろーんズ</title>
+
+    <meta name="keywords" content=",ドローン,Drone,展示会,コンファランス">
+    <meta name="description" content="日本で初めての本格的な民間ドローン専門展示会＆コンファレンスの単独イベント、Japan Drone 2021。キーワードは「日本発。世界発。」イベントの進行状況にしたがってトピックスを適時に表示します。">
+
+
+    <meta property="og:site_name" content="日本で初めての本格的な民間ドローン専門展示会＆コンファレンスの単独イベント、Japan Drone 2021。キーワードは「日本発。世界発。」イベントの進行状況にしたがってトピックスを適時に表示します。">
+    <meta property="og:title" content="Shishima - Fukuoka - All Staff - Route 44 - Team 福岡どろーんズ">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="日本で初めての本格的な民間ドローン専門展示会＆コンファレンスの単独イベント、Japan Drone 2021。キーワードは「日本発。世界発。」イベントの進行状況にしたがってトピックスを適時に表示します。">
+
+
     <!--link css-->
     <link rel="stylesheet" type="text/css" title="" href="../drone/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" title="" href="../drone/css/bootstrap-datetimepicker.css">

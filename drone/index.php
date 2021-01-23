@@ -30,19 +30,16 @@
 				<div class="swiper-container gall-slide">
 					<div class="swiper-wrapper">
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="../drone/images/fly01.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly01.png" class="img-fluid" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/dro01.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/dro01.jpg" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="../drone/images/fly02.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly02.png" class="img-fluid" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/dro02.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/dro02.jpg" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="../drone/images/fly03.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly03.png" class="img-fluid" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/dro03.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/dro03.jpg" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="../drone/images/fly04.png" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly04.png" class="img-fluid" alt=""></a></div>
-					    </div></div>
-					    <div class="swiper-slide"><div class="swiper-slide-container">
-					    	<div class="item"><a href="../drone/images/fly05.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/fly05.jpg" class="img-fluid" alt=""></a></div>
+					    	<div class="item"><a href="../drone/images/dro04.jpg" data-fancybox="slide-gall-1" data-lightbox="roadtrip-1"><img src="../drone/images/dro04.jpg" class="img-fluid" alt=""></a></div>
 					    </div></div>
 					</div>
 					<div class="btn-slide swiper-button-prev"><a href="javascript:void(0)"><i class="fa fa-angle-left"></i></a></div>
@@ -60,12 +57,12 @@
 				<div class="row">
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".25s">
 						<div class="video">
-							<iframe width="1280" height="720" src="https://www.youtube.com/embed/6Nb-prB-4P0?list=RDMM6Nb-prB-4P0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/sbVKVEtO7T8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".35s">
 						<div class="video">
-							<iframe width="1280" height="720" src="https://www.youtube.com/embed/1__CAdTJ5JU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/vzBd0jN907g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
