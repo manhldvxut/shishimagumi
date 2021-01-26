@@ -740,7 +740,7 @@ footer {
       position: relative;
       left: -15px;
       top: -4px;
-      font-size: 12px; }
+      font-size: 10px; }
   .list-ranger-time .item-ranger input[type=checkbox]:checked + label:after {
     background: #ffc302; }
 

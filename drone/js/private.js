@@ -62,30 +62,6 @@ jQuery(function($) {
 if($(window).innerWidth() > 1023){
     new WOW().init();
 }
-
-
-// $("#datepicker").datetimepicker({
-//   useCurrent: false,
-//   format: "L",
-//   showTodayButton: true,
-//   icons: {
-//     next: "fa fa-chevron-right",
-//     previous: "fa fa-chevron-left",
-//     today: 'todayText',
-//   } 
-// });
-// $("#datepicker-1").datetimepicker({
-//   useCurrent: false,
-//   format: "L",
-//   showTodayButton: true,
-//   icons: {
-//     next: "fa fa-chevron-right",
-//     previous: "fa fa-chevron-left",
-//     today: 'todayText',
-//   } 
-// });
-
-
 $( document ).ready(function() {
   $('.load-bar').addClass('active');
   setTimeout(function(){
@@ -101,4 +77,17 @@ $(function() {
     }
   });
   $("#datepicker2").datepicker(); 
+});
+
+
+$('.inin').click(function () {
+  var checkboxValues = [];
+  $('input[type="checkbox"]:checked').each(function(index, elem) {
+    var result=$(elem).val().split('-');
+      checkboxValues.push(parseInt(result));
+  });
+  var tongchon = checkboxValues.length;
+  var start = checkboxValues[0];
+  var end = checkboxValues[checkboxValues.length - 1] + 1;
+  $('#ranger-value').val(start+'時 - '+end+'時')
 });

@@ -126,7 +126,7 @@
 					          	<div class="inp_date" data-toggle="modal" data-target="#modal-date"><input type="text" id="datepicker2" placeholder="10/01/2020" class="text-center" readonly></div>
 							</li>
 							<li>
-								<input type="text" placeholder="9:10" readonly> 
+								<input type="text" placeholder="9:10" readonly id="ranger-value"> 
 							</li>
 						</ul>
 					</div>
@@ -152,7 +152,7 @@
 					        			</ul>
 					        		</div> 
 					        		<div class="list-ranger-time">
-					        			<div class="row">
+					        			<div class="row"> 
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
 					        						<input type="checkbox" class="check-time" id="check-1" value="11時 - 12時"><label for="check-1"><span>11時</span></label>
@@ -170,7 +170,7 @@
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-4" value="14時 - 15時"><label for="check-4"><span>14時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-4" value="14時 - 15時"><label for="check-4"><span>14時</span></label> 
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
@@ -211,7 +211,7 @@
 					        			</div>
 					        		</div> 
 					        		<div class="btn-popup text-center">
-					        			<button data-dismiss="modal">Chọn</button>
+					        			<button data-dismiss="modal" class="inin">Chọn</button>
 					        		</div>
 					        	</div>
 					        </div>
