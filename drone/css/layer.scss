@@ -8,6 +8,9 @@ header {
 .header-menu {
 	background: #fff;
 	transition: .3s all;
+	position: fixed;
+	z-index: 111;
+	width: 100%;
 	.container-fluid {
 		padding: 0;
 	}

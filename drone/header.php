@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shishima - Fukuoka - All Staff - Route 44 - Team 福岡どろーんズ</title>
+    <title>Fukuoka drone</title>
 
     <meta name="keywords" content=",ドローン,Drone,展示会,コンファランス">
     <meta name="description" content="日本で初めての本格的な民間ドローン専門展示会＆コンファレンスの単独イベント、Japan Drone 2021。キーワードは「日本発。世界発。」イベントの進行状況にしたがってトピックスを適時に表示します。">

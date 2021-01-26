@@ -151,6 +151,9 @@ header.load-active {
 .header-menu {
   background: #fff;
   transition: .3s all;
+  position: fixed;
+  z-index: 111;
+  width: 100%;
 }
 
 .header-menu .container-fluid {
@@ -258,12 +261,19 @@ footer {
 .banner-logo {
   padding: 40px 0;
   position: relative;
+  padding-top: 130px;
+}
+
+@media (max-width: 768px) {
+  .banner-logo {
+    padding-top: 20vw;
+  }
 }
 
 .banner-logo:after {
   content: "";
   width: 100%;
-  height: 290px;
+  height: 370px;
   background: #fff6e1;
   position: absolute;
   top: 0;
