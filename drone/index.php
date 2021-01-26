@@ -13,7 +13,7 @@
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2><span>福岡どろーんズとは</span></h2>
 			</div>
-			<div class="content-desc text-center wow fadeIn" data-wow-delay=".5s">
+			<div class="content-desc text-center wow fadeIn" data-wow-delay=".5s"> 
 				製品やサービスの販路拡大にまた情報収集やネットワークの構築などPRの場としてもお役立てください。<br>
 				また、ドローンのテクノロジー、マーケットなどの最新動向を国内外のキーパーソンが紹介する国際コンファレンスも例年、
 				ドローンを取り巻く現状の把握と近未来のヒントが満載というお声を数多くいただいています。
@@ -53,7 +53,7 @@
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2><span>福岡どろーんズのビデオ</span></h2>
 			</div>
-			<div class="list-video">
+			<!-- <div class="list-video">
 				<div class="row">
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".25s">
 						<div class="video">
@@ -66,7 +66,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<section class="box-form" id="revs">
@@ -120,54 +120,106 @@
 					<div class="inp-right">
 						<ul>
 							<li> 
-								<div class="input-group date" id="datepicker">
+								<!-- <div class="input-group date" id="datepicker">
 					            	<input class="form-control text-center" placeholder="10/01/2020"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
-					          	</div>
+					          	</div> --> 
+					          	<div class="inp_date" data-toggle="modal" data-target="#modal-date"><input type="text" id="datepicker2" placeholder="10/01/2020" class="text-center" readonly></div>
 							</li>
 							<li>
-								<!-- <input type="text" placeholder="9:10"> -->
-								<div class="select-choose">
-									<select name="" id="">
-										<option value="">10:00</option>
-										<option value="">11:00</option>
-										<option value="">12:00</option>
-										<option value="">13:00</option>
-										<option value="">14:00</option>
-										<option value="">15:00</option>
-										<option value="">16:00</option>
-										<option value="">17:00</option>
-									</select>
-								</div>
+								<input type="text" placeholder="9:10" readonly> 
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
-					<label>日付期間<span>必須 </span></label>
-					<div class="inp-right">
-						<ul>
-							<li>
-								<div class="input-group date" id="datepicker-1">
-					            	<input class="form-control text-center" placeholder="10/01/2020"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
-					          	</div>
-							</li>
-							<li>
-								<!-- <input type="text" placeholder="19:00">  -->
-								<div class="select-choose">
-									<select name="" id="">
-										<option value="">10:00</option>
-										<option value="">11:00</option>
-										<option value="">12:00</option>
-										<option value="">13:00</option>
-										<option value="">14:00</option>
-										<option value="">15:00</option>
-										<option value="">16:00</option>
-										<option value="">17:00</option>
-									</select>
-								</div>
-							</li>
-						</ul>
+
+					<!-- popup modal date -->
+					<div class="modal fade modal-checking" id="modal-date">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-body">
+					        <div class="popup-date">
+					        	<div class="date-top">
+					        		<div id="datepicker"></div>
+					        	</div>
+					        	<div class="range-time">
+					        		<div class="title-time text-center">1月27日(水)の空き情報</div>
+					        		<div class="notice-desc text-center">
+					        			ご注文の点数・内容により、お時間がかかる場合がございます。 <br>あらかじめご了承ください。
+					        		</div>
+					        		<div class="status-time">
+					        			<ul class="list-inline text-center">
+					        				<li class="list-inline-item"><label class="status-1">空きあり</label></li>
+					        				<li class="list-inline-item"><label class="status-2">空きなし</label></li>
+					        			</ul>
+					        		</div> 
+					        		<div class="list-ranger-time">
+					        			<div class="row">
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-1" value="11時 - 12時"><label for="check-1"><span>11時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-2" value="12時 - 13時"><label for="check-2"><span>12時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-3" value="13時 - 14時"><label for="check-3"><span>13時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-4" value="14時 - 15時"><label for="check-4"><span>14時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-5" value="15時 - 16時"><label for="check-5"><span>15時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-6" value="16時 - 17時"><label for="check-6"><span>16時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-7" value="17時 - 18時"><label for="check-7"><span>17時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-8" value="18時 - 19時"><label for="check-8"><span>18時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-9" value="19時 - 20時"><label for="check-9"><span>19時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-10" value="20時 - 21時"><label for="check-10"><span>20時</span></label>
+					        					</div>
+					        				</div>
+					        				<div class="col-md-3">
+					        					<div class="item-ranger">
+					        						<input type="checkbox" class="check-time" id="check-11" value="21時 - 22時"><label for="check-11"><span>21時</span></label>
+					        					</div>
+					        				</div>
+					        			</div>
+					        		</div> 
+					        		<div class="btn-popup text-center">
+					        			<button data-dismiss="modal">Chọn</button>
+					        		</div>
+					        	</div>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
 					</div>
+					<!-- end popup modal date -->
 				</div>
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
 					<label>免許証<span>必須</span></label>
@@ -231,7 +283,7 @@
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2><span>アクセス </span></h2>
 			</div>
-			<div class="list-maps">
+			<!-- <div class="list-maps">
 				<div class="row">
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".25s">
 						<div class="item-maps">
@@ -244,7 +296,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 	<section class="box-contact" id="contact">

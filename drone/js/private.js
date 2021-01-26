@@ -64,41 +64,41 @@ if($(window).innerWidth() > 1023){
 }
 
 
-$("#datepicker").datetimepicker({
-  useCurrent: false,
-  format: "L",
-  showTodayButton: true,
-  icons: {
-    next: "fa fa-chevron-right",
-    previous: "fa fa-chevron-left",
-    today: 'todayText',
-  } 
-});
-$("#datepicker-1").datetimepicker({
-  useCurrent: false,
-  format: "L",
-  showTodayButton: true,
-  icons: {
-    next: "fa fa-chevron-right",
-    previous: "fa fa-chevron-left",
-    today: 'todayText',
-  } 
-});
-// $("#timepicker").datetimepicker({
-//   format: "LT",
+// $("#datepicker").datetimepicker({
+//   useCurrent: false,
+//   format: "L",
+//   showTodayButton: true,
 //   icons: {
-//     up: "fa fa-chevron-up",
-//     down: "fa fa-chevron-down"
-//   }
+//     next: "fa fa-chevron-right",
+//     previous: "fa fa-chevron-left",
+//     today: 'todayText',
+//   } 
+// });
+// $("#datepicker-1").datetimepicker({
+//   useCurrent: false,
+//   format: "L",
+//   showTodayButton: true,
+//   icons: {
+//     next: "fa fa-chevron-right",
+//     previous: "fa fa-chevron-left",
+//     today: 'todayText',
+//   } 
 // });
 
-// setTimeout(function(){
 
-// }, 3000);
 $( document ).ready(function() {
   $('.load-bar').addClass('active');
   setTimeout(function(){
     $('.loading-page, header').addClass('load-active');  
     $('body').addClass('over-hidd');  
   }, 1200);
+});
+
+$(function() {
+  $('#datepicker').datepicker({
+    onSelect: function(dateText) {
+      $('#datepicker2').datepicker("setDate", $(this).datepicker("getDate"));
+    }
+  });
+  $("#datepicker2").datepicker(); 
 });

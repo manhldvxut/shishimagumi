@@ -19,7 +19,8 @@
 
     <!--link css-->
     <link rel="stylesheet" type="text/css" title="" href="../drone/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" title="" href="../drone/css/bootstrap-datetimepicker.css">
+    <!-- <link rel="stylesheet" type="text/css" title="" href="../drone/css/bootstrap-datetimepicker.css">  -->
+    <link rel="stylesheet" type="text/css" title="" href="../drone/css/jquery-ui.css"> 
     <link rel="stylesheet" type="text/css" title="" href="../drone/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" title="" href="../drone/css/swiper.min.css">
     <link rel="stylesheet" type="text/css" title="" href="../drone/css/lightbox.min.css"> 
