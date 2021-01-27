@@ -290,6 +290,51 @@
     .loading-page {
         height: calc(100vh + 150px);
     }
+    .ui-datepicker {
+        width: 100%;
+    }
+
+    .modal-checking .modal-body {
+        padding: 30px;
+    }
+
+    .ui-datepicker table {
+        font-size: 12px;
+    }
+    .list-ranger-time {
+        padding: 20px 0;
+    }
+    .status-time label {
+        margin: 0 !important;
+        display: unset !important;
+    }
+
+    .status-time ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .status-time ul li {
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .status-time {
+        padding: 20px 0 0 0;
+    }
+
+    .status-time .status-2:after {
+        top: 0;
+    }
+
+    .status-time .status-1:after {
+        top: 0;
+    }
+
+    .btn-popup button {
+        font-size: 12px;
+        height: 40px;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -299,5 +344,8 @@
 
     .btn-slide.swiper-button-prev {
         left: 5%;
+    }
+    .ui-datepicker {
+        width: 20em;
     }
 }

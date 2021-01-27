@@ -82,7 +82,9 @@ $(function() {
   $('#datepicker').datepicker({
     onSelect: function(dateText) {
       $('#datepicker2').datepicker("setDate", $(this).datepicker("getDate"));
-    }
+    },
+    maxDate: "1m",
+    minDate: "0",
   });
   $("#datepicker2").datepicker(); 
 });

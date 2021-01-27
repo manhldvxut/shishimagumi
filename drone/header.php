@@ -38,7 +38,7 @@
         </div>
     </div>
     <header>
-        <div class="header-menu wow fadeInUp wHighlight" data-wow-delay=".25s">
+        <div class="header-menu">
             <div class="container-fluid"> 
                 <div class="row align-items-center">
                     <div class="col-md-6 col-6">
