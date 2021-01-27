@@ -71,10 +71,10 @@ $( document ).ready(function() {
 
 
   // 
-/*  var thisFull = $('.fullResver')
+  var thisFull = $('.fullResver')
   thisFull.click(function(){
-    alert("no");
-  })*/
+    alert("この時間は空いていません！")
+  })
 
 });
 
