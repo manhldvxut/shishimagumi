@@ -68,6 +68,14 @@ $( document ).ready(function() {
     $('.loading-page, header').addClass('load-active');  
     $('body').addClass('over-hidd');  
   }, 1200);
+
+
+  // 
+/*  var thisFull = $('.fullResver')
+  thisFull.click(function(){
+    alert("no");
+  })*/
+
 });
 
 $(function() {
@@ -85,9 +93,14 @@ $('.inin').click(function () {
   $('input[type="checkbox"]:checked').each(function(index, elem) {
     var result=$(elem).val().split('-');
       checkboxValues.push(parseInt(result));
+      if ($(this).hasClass('fullResver')){
+        alert("この時間は空いていません！")
+      }else{
+        var tongchon = checkboxValues.length;
+        var start = checkboxValues[0];
+        var end = checkboxValues[checkboxValues.length - 1] + 1;
+        $('#ranger-value').val(start+'時 - '+end+'時')
+      }
   });
-  var tongchon = checkboxValues.length;
-  var start = checkboxValues[0];
-  var end = checkboxValues[checkboxValues.length - 1] + 1;
-  $('#ranger-value').val(start+'時 - '+end+'時')
 });
+
