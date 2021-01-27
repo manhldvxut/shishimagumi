@@ -155,57 +155,57 @@
 					        			<div class="row"> 
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-1" value="09時 - 10時"><label for="check-1"><span>11時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-1" value="09時 - 10時"><label for="check-1"><span>9時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger ">
-					        						<input type="checkbox" class="fullResver check-time" id="check-2" value="10時 - 11時"><label for="check-2"><span>12時</span></label>
+					        						<input type="checkbox" class="fullResver check-time" id="check-2" value="10時 - 11時"><label for="check-2"><span>10時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-3" value="11時 - 12時"><label for="check-3"><span>13時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-3" value="11時 - 12時"><label for="check-3"><span>11時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-4" value="12時 - 13時"><label for="check-4"><span>14時</span></label> 
+					        						<input type="checkbox" class="check-time" id="check-4" value="12時 - 13時"><label for="check-4"><span>12時</span></label> 
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-5" value="13時 - 14時"><label for="check-5"><span>15時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-5" value="13時 - 14時"><label for="check-5"><span>13時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-6" value="14時 - 15時"><label for="check-6"><span>16時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-6" value="14時 - 15時"><label for="check-6"><span>14時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-7" value="15時 - 16時"><label for="check-7"><span>17時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-7" value="15時 - 16時"><label for="check-7"><span>15時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-8" value="16時 - 17時"><label for="check-8"><span>18時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-8" value="16時 - 17時"><label for="check-8"><span>16時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-9" value="17時 - 18時"><label for="check-9"><span>19時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-9" value="17時 - 18時"><label for="check-9"><span>17時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-10" value="18時 - 19時"><label for="check-10"><span>20時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-10" value="18時 - 19時"><label for="check-10"><span>18時</span></label>
 					        					</div>
 					        				</div>
 					        				<div class="col-md-3">
 					        					<div class="item-ranger">
-					        						<input type="checkbox" class="check-time" id="check-11" value="20時 - 21時"><label for="check-11"><span>21時</span></label>
+					        						<input type="checkbox" class="check-time" id="check-11" value="20時 - 21時"><label for="check-11"><span>19時</span></label>
 					        					</div>
 					        				</div>
 					        			</div>
