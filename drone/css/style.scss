@@ -30,7 +30,7 @@ body {
             // color: $blue;     
         }   
     } 
-    ul {     
+    ul {      
     	padding: 0; 
     	margin: 0; 
     }    
@@ -794,6 +794,9 @@ body {
         input[type=checkbox]:checked + label:after {
             background: #ffc302;
         }
+        input[type=checkbox].fullResver + label:after {
+            background: #ffc302 !important;
+        }
     }
 }
 .status-time {
@@ -827,7 +830,7 @@ body {
     .status-2 {
         &:after {
             content: "";
-            background: #d3d3d3;
+            background: #ffc302;
             width: 20px;
             height: 14px;
             position: absolute;
@@ -854,4 +857,42 @@ body {
 }
 .list-ranger-time .item-ranger.fullResver label:after{
     background-color: red;
+}
+ 
+.multi-field-wrapper {
+    position: relative;
+    .add-field {
+        position: absolute;
+        right: -30px;
+        top: 10px;
+        border: 0;
+        background: transparent;
+        font-size: 18px;
+        color: #e7141b;
+        cursor: pointer;
+    }
+}
+.multi-field {
+    position: relative; 
+    .remove-field {
+        position: absolute;
+        right: -30px;
+        top: 10px;
+        border: 0;
+        background: transparent;
+        font-size: 18px;
+        color: #e7141b;
+        cursor: pointer;
+    }
+    label {
+        opacity: 0;
+    }
+    &:first-child {
+        .remove-field {
+            display: none;
+        }
+        label {
+            opacity: 1;
+        }
+    }
 }

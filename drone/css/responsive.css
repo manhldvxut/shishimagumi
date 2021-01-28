@@ -335,6 +335,28 @@
         font-size: 12px;
         height: 40px;
     }
+    .multi-field-wrapper {
+        padding-right: 35px;
+    }
+    .multi-field-wrapper .add-field {
+        right: 0;
+        top: 55px;
+    }
+    .multi-field .remove-field {
+        right: -34px;
+        top: unset;
+        bottom: 6px;
+    }
+
+    .multi-field label {
+        display: none !important;
+    }
+
+    .multi-field {}
+
+    .multi-field:first-child label {
+        display: block !important;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -347,5 +369,27 @@
     }
     .ui-datepicker {
         width: 20em;
+    }
+    .multi-field-wrapper {
+        padding-right: 35px;
+    }
+    .multi-field-wrapper .add-field {
+        right: 0;
+        top: 55px;
+    }
+    .multi-field .remove-field {
+        right: -34px;
+        top: unset;
+        bottom: 6px;
+    }
+
+    .multi-field label {
+        display: none !important;
+    }
+
+    .multi-field {}
+
+    .multi-field:first-child label {
+        display: block !important;
     }
 }

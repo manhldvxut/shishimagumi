@@ -76,6 +76,32 @@ $( document ).ready(function() {
     alert("この時間は空いていません！")
   })
 
+
+  // $("#btnAdd").click(function(e) {
+  //     $("#item-date").append(
+  //       '<div class="item item-appp"><label></label><div class="inp-right"><ul><li><div class="inp_date" data-toggle="modal" data-target="#modal-date"><input type="text" id="datepicker2" placeholder="10/01/2020" class="text-center" readonly></div></li><li><input type="text" placeholder="9:10" readonly id="ranger-value"> </li></ul></div></div>'
+  //     ); 
+  //   });
+  //   $("body").on("click", ".btn-delete", function(e) {
+  //     $("#item-date .item-appp").last().remove();
+  //   });
+
+  //   if ($('.item').hasClass('item-appp')) {
+  //     $('.btn-delete').hide();
+  //   }
+
+}); 
+
+
+$('.multi-field-wrapper').each(function() {
+    var $wrapper = $('.multi-fields', this);
+    $(".add-field", $(this)).click(function(e) {
+        $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper);
+    });
+    $('.multi-field .remove-field', $wrapper).click(function() {
+        if ($('.multi-field', $wrapper).length > 1)
+            $(this).parent('.multi-field').remove();
+    });
 });
 
 $(function() {

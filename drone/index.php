@@ -18,7 +18,7 @@
 				また、ドローンのテクノロジー、マーケットなどの最新動向を国内外のキーパーソンが紹介する国際コンファレンスも例年、
 				ドローンを取り巻く現状の把握と近未来のヒントが満載というお声を数多くいただいています。
 				<!-- <p>ここに内容を入力してください。ここに内容を入力してください。</p> -->
-			</div>
+			</div> 
 		</div>
 	</section>  
 	<section class="box-showroom"> 
@@ -106,32 +106,32 @@
 						<input type="text" placeholder="入力してください。">
 					</div>
 				</div>
-				<!-- <div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
-					<label>予約時間<span>必須</span></label>
-					<div class="inp-right">
-						<ul>
-							<li><input type="text" placeholder="2020/01/10"></li>
-							<li><input type="text" placeholder="9:10"></li>
-						</ul>
-					</div>
+				<div class="multi-field-wrapper">
+			      	<div class="multi-fields">
+			        	<div class="multi-field">
+			          		<div class="item item-append">
+								<label>日付<span>必須</span></label>
+								<div class="inp-right">
+									<ul>
+										<li> 
+								          	<div class="inp_date" data-toggle="modal" data-target="#modal-date"><input type="text" id="datepicker2" placeholder="10/01/2020" class="text-center" readonly></div>
+										</li>
+										<li>
+											<input type="text" placeholder="9:10" readonly id="ranger-value"> 
+										</li>
+									</ul>
+								</div>
+							</div> 
+							<button type="button" class="remove-field"><i class="fa fa-minus-circle"></i></button>
+			        	</div>
+			      	</div>
+			    	<button type="button" class="add-field"><i class="fa fa-plus-circle"></i></button>
+			  	</div>
+				<!-- <div class="item"> 
+					<button type="button" class="add-field">Add field</button>
 				</div> -->
-				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
-					<label>日付<span>必須</span></label>
-					<div class="inp-right">
-						<ul>
-							<li> 
-								<!-- <div class="input-group date" id="datepicker">
-					            	<input class="form-control text-center" placeholder="10/01/2020"/><span class="input-group-append input-group-addon text-center"><span class="input-group-text"><i class="fa fa-calendar"></i></span></span>
-					          	</div> --> 
-					          	<div class="inp_date" data-toggle="modal" data-target="#modal-date"><input type="text" id="datepicker2" placeholder="10/01/2020" class="text-center" readonly></div>
-							</li>
-							<li>
-								<input type="text" placeholder="9:10" readonly id="ranger-value"> 
-							</li>
-						</ul>
-					</div>
 
-					<!-- popup modal date -->
+				<!-- popup modal date -->
 					<div class="modal fade modal-checking" id="modal-date">
 					  <div class="modal-dialog">
 					    <div class="modal-content">
@@ -219,8 +219,8 @@
 					    </div>
 					  </div>
 					</div>
-					<!-- end popup modal date -->
-				</div>
+				<!-- end popup modal date -->
+
 				<div class="item wow fadeInUp wHighlight" data-wow-delay=".25s">
 					<label>免許証<span>必須</span></label>
 					<div class="inp-right">
