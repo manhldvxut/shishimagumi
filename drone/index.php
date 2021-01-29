@@ -14,7 +14,7 @@
 				<h2><span>福岡どろーんズとは</span></h2>
 			</div>
 			<div class="content-desc text-center wow fadeIn" data-wow-delay=".5s"> 
-				製品やサービスの販路拡大にまた情報収集やネットワークの構築などPRの場としてもお役立てください。<br>
+				製品やサービスの販路拡大にまた情報収集やネットワークの構築などPRの場としてもお役立てください。<br> 
 				また、ドローンのテクノロジー、マーケットなどの最新動向を国内外のキーパーソンが紹介する国際コンファレンスも例年、
 				ドローンを取り巻く現状の把握と近未来のヒントが満載というお声を数多くいただいています。
 				<!-- <p>ここに内容を入力してください。ここに内容を入力してください。</p> -->
@@ -23,7 +23,7 @@
 	</section>  
 	<section class="box-showroom"> 
 		<div class="container-fluid">
-			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
+			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s"> 
 				<h2><span>福岡どろーんズのギャラリー</span></h2>
 			</div>
 			<div class="box-slide wow fadeIn" data-wow-delay=".25s">
@@ -46,7 +46,7 @@
     				<div class="btn-slide swiper-button-next"><a href="javascript:void(0)"><i class="fa fa-angle-right"></i></a></div>
 				</div>
 			</div>
-		</div>
+		</div>  
 	</section> 
 	<section class="box-video">
 		<div class="container-fluid">
@@ -117,7 +117,7 @@
 								          	<div class="inp_date" data-toggle="modal" data-target="#modal-date"><input type="text" id="datepicker2" placeholder="10/01/2020" class="text-center" readonly></div>
 										</li>
 										<li>
-											<input type="text" placeholder="9:10" readonly id="ranger-value"> 
+											<input type="text" placeholder="9:10" readonly id="ranger-value" class="chenvalue0" data-valuein="0"> 
 										</li>
 									</ul>
 								</div>
@@ -153,6 +153,7 @@
 					        		</div> 
 					        		<div class="list-ranger-time">
 					        			<div class="row"> 
+					        				<input type="hidden" id="valuerange">
 					        				<div class="col-md-3 col-3">
 					        					<div class="item-ranger">
 					        						<input type="checkbox" class="check-time" id="check-1" value="09時 - 10時"><label for="check-1"><span>9時</span></label>

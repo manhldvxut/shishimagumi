@@ -20,11 +20,11 @@ var swiper = new Swiper('.gall-slide', {
         slidesPerView: 1.2,
         spaceBetween: 5
       }
-    }
+    } 
 });
 
 jQuery(function($) {
-  var doAnimations = function() {
+  var doAnimations = function() { 
     var offset = $(window).scrollTop() + $(window).height(),
         $animatables = $('.content-desc p');
     if ($animatables.length == 0) {
@@ -69,34 +69,24 @@ $( document ).ready(function() {
     $('body').addClass('over-hidd');  
   }, 1200);
 
-
-  // 
   var thisFull = $('.fullResver')
   thisFull.click(function(){
     alert("この時間は空いていません！")
   })
-
-
-  // $("#btnAdd").click(function(e) {
-  //     $("#item-date").append(
-  //       '<div class="item item-appp"><label></label><div class="inp-right"><ul><li><div class="inp_date" data-toggle="modal" data-target="#modal-date"><input type="text" id="datepicker2" placeholder="10/01/2020" class="text-center" readonly></div></li><li><input type="text" placeholder="9:10" readonly id="ranger-value"> </li></ul></div></div>'
-  //     ); 
-  //   });
-  //   $("body").on("click", ".btn-delete", function(e) {
-  //     $("#item-date .item-appp").last().remove();
-  //   });
-
-  //   if ($('.item').hasClass('item-appp')) {
-  //     $('.btn-delete').hide();
-  //   }
-
 }); 
 
-
+var count = 0;
 $('.multi-field-wrapper').each(function() {
     var $wrapper = $('.multi-fields', this);
+
     $(".add-field", $(this)).click(function(e) {
+      count += 1;
         $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper);
+        $('.multi-field:last-child .hasDatepicker').val("");$('.multi-field:last-child .hasDatepicker').data('datein');$('.multi-field:last-child .hasDatepicker').data('datein',count);
+        $('.multi-field:last-child #ranger-value').val("");
+        $('.multi-field:last-child #ranger-value').attr('data-valuein',count);
+        $('.multi-field:last-child #ranger-value').addClass("chenvalue"+count);
+        $('.multi-field:last-child #ranger-value').removeClass("chenvalue0");
     });
     $('.multi-field .remove-field', $wrapper).click(function() {
         if ($('.multi-field', $wrapper).length > 1)
@@ -104,10 +94,13 @@ $('.multi-field-wrapper').each(function() {
     });
 });
 
+
 $(function() {
   $('#datepicker').datepicker({
     onSelect: function(dateText) {
       $('#datepicker2').datepicker("setDate", $(this).datepicker("getDate"));
+      console.log(dateText); // query vào DB để lấy nhưng khung giờ đã được đặt để addClass fullResver
+
     },
     maxDate: "1m",
     minDate: "0",
@@ -117,6 +110,9 @@ $(function() {
 
 
 $('.inin').click(function () {
+  // alert()
+  var number = $('#valuerange').val();
+  console.log(number); 
   var checkboxValues = [];
   $('input[type="checkbox"]:checked').each(function(index, elem) {
     var result=$(elem).val().split('-');
@@ -127,8 +123,14 @@ $('.inin').click(function () {
         var tongchon = checkboxValues.length;
         var start = checkboxValues[0];
         var end = checkboxValues[checkboxValues.length - 1] + 1;
-        $('#ranger-value').val(start+'時 - '+end+'時')
+        // $('.multi-field:last-child #ranger-value').val(start+'時 - '+end+'時');
+        $('.chenvalue'+number).val(start+'時 - '+end+'時');
       }
   });
 });
 
+$('.inp_date').click(function () {
+  var pos = $(this).parent('li').next().find("#ranger-value").data('valuein');
+  $('#valuerange').val(pos);
+  // console.log(pos);
+});
