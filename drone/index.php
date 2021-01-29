@@ -3,7 +3,7 @@
 	<section class="banner-logo">
 		<div class="container">
 			<div class="box-logo text-center wow fadeIn">
-				<div class="avarta-logo-rout"><img src="../drone/images/logo-banner/logo-banner.png" alt=""></div>
+				<div class="avarta-logo-rout"><img src="../drone/images/logo.svg" alt=""></div>
 				<!-- <img src="../drone/images/logo-banner.png" class="img-fluid" alt="">  -->
 			</div>
 		</div>
@@ -110,7 +110,7 @@
 			      	<div class="multi-fields">
 			        	<div class="multi-field">
 			          		<div class="item item-append">
-								<label>日付<span>必須</span></label>
+								<label> <b>日付</b><span>必須</span></label>
 								<div class="inp-right">
 									<ul>
 										<li> 
@@ -240,8 +240,8 @@
 					<div class="inp-right select-choose">
 						<select name="" id="">
 							<option value="">選択してください。</option>
-							<option value="">選択してください。2</option>
-							<option value="">選択してください。3</option>
+							<option value="">〒811-0203 福岡市東区塩浜1</option>
+							<option value="">福岡県古賀市筵内2496-1</option>
 						</select>
 					</div>
 				</div>
@@ -249,21 +249,21 @@
 					<label>機械種類<span>必須</span></label>
 					<div class="inp-right">
 						<ul>
-							<li>
+							<li> 
 								<div class="select-choose">
-									<select name="" id="">
-										<option value="">選択してください。</option>
-										<option value="">選択してください。2</option>
-										<option value="">選択してください。3</option> 
+									<select name="" id="options-price">
+										<option value="" disabled selected>選択してください。</option>
+										<option value="price-1">機械種類 1</option>
+										<option value="price-2">機械種類 2</option> 
+										<option value="price-3">機械種類 3</option> 
+										<option value="price-4">機械種類 4</option> 
 									</select>
 								</div>
 							</li>
-							<li>	
-								<div class="select-choose">
-									<select name="" id="">
-										<option value="">値段処理</option>
-										<option value="">値段処理 2</option>
-										<option value="">値段処理 3</option>
+							<li>	 
+								<div class="select-choose select-choose-price" style="pointer-events: none;">
+									<select name="" id="choices-price"> 
+										<option value="" disabled selected>値段処理</option>
 									</select>
 								</div>
 							</li>

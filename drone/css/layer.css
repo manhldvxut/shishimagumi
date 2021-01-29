@@ -100,4 +100,8 @@ footer {
   margin-bottom: 50px;
 }
 
+.select-choose-price:after {
+  display: none;
+}
+
 /*# sourceMappingURL=map/layer.css.map */

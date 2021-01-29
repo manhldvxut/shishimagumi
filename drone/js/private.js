@@ -1,5 +1,32 @@
+$(function() {
+  // wow
+  if($(window).innerWidth() > 1023){
+    new WOW().init();
+  }
+  //first load
+  loadFirst();
+  //slider
+  slider();
+  //animate
+  animate();
+  //scroll
+  scroll();
+  // popup
+  PopUp()
+  // calendar
+  calendar();
+  //push time
+  pushTimeCheck();
+  //send
+  plus();
+  //slect
+  selectPrice()
 
-var swiper = new Swiper('.gall-slide', {
+
+})
+
+function slider(){
+  var swiper = new Swiper('.gall-slide', {
   slidesPerView: 2,
   centeredSlides: true,
   paginationClickable: true,
@@ -21,28 +48,28 @@ var swiper = new Swiper('.gall-slide', {
         spaceBetween: 5
       }
     } 
-});
+  });
+}
 
-jQuery(function($) {
+function animate(){
   var doAnimations = function() { 
-    var offset = $(window).scrollTop() + $(window).height(),
-        $animatables = $('.content-desc p');
-    if ($animatables.length == 0) {
-      $(window).off('scroll', doAnimations);
+  var offset = $(window).scrollTop() + $(window).height(),
+      $animatables = $('.content-desc p');
+  if ($animatables.length == 0) {
+    $(window).off('scroll', doAnimations);
+  }
+  $animatables.each(function(i) {
+     var $animatable = $(this);
+    if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+          $animatable.addClass('txt-anim');
     }
-    $animatables.each(function(i) {
-       var $animatable = $(this);
-      if (($animatable.offset().top + $animatable.height() - 20) < offset) {
-            $animatable.addClass('txt-anim');
-      }
-    }); 
+  }); 
   };
   $(window).on('scroll', doAnimations);
   $(window).trigger('scroll');
+}
 
-
-
-  /*scroll*/
+function scroll(){
   $('a[href^="#"]').on('click', function(e){
     e.preventDefault();
     var speed = 400;
@@ -56,46 +83,50 @@ jQuery(function($) {
         $('body,html').animate({scrollTop:position}, speed, 'swing');  
     }
   })
-}); 
-
-
-if($(window).innerWidth() > 1023){
-    new WOW().init();
 }
-$( document ).ready(function() {
+
+function loadFirst(){
   $('.load-bar').addClass('active');
   setTimeout(function(){
     $('.loading-page, header').addClass('load-active');  
     $('body').addClass('over-hidd');  
   }, 1200);
+}
 
+$( document ).ready(function() {
+  // check time
   var thisFull = $('.fullResver')
   thisFull.click(function(){
     alert("この時間は空いていません！")
   })
 }); 
 
-var count = 0;
-$('.multi-field-wrapper').each(function() {
+function plus(){
+  var count = 0;
+  $('.multi-field-wrapper').each(function() {
     var $wrapper = $('.multi-fields', this);
-
     $(".add-field", $(this)).click(function(e) {
       count += 1;
-        $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper);
-        $('.multi-field:last-child .hasDatepicker').val("");$('.multi-field:last-child .hasDatepicker').data('datein');$('.multi-field:last-child .hasDatepicker').data('datein',count);
+        $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).addClass('update-date');
+        $('.multi-field:last-child .hasDatepicker').val("");
+        $('.multi-field:last-child .hasDatepicker').data('datein');$('.multi-field:last-child .hasDatepicker').data('datein',count);
         $('.multi-field:last-child #ranger-value').val("");
         $('.multi-field:last-child #ranger-value').attr('data-valuein',count);
         $('.multi-field:last-child #ranger-value').addClass("chenvalue"+count);
         $('.multi-field:last-child #ranger-value').removeClass("chenvalue0");
+        $('.update-date label b').html(' 追加日付')
     });
+
+    //when remove
     $('.multi-field .remove-field', $wrapper).click(function() {
         if ($('.multi-field', $wrapper).length > 1)
             $(this).parent('.multi-field').remove();
     });
-});
+  });
 
+}
 
-$(function() {
+function calendar(){
   $('#datepicker').datepicker({
     onSelect: function(dateText) {
       $('#datepicker2').datepicker("setDate", $(this).datepicker("getDate"));
@@ -106,31 +137,52 @@ $(function() {
     minDate: "0",
   });
   $("#datepicker2").datepicker(); 
-});
+}
 
-
-$('.inin').click(function () {
+function PopUp(){
+  $('.inp_date').click(function () {
+  var pos = $(this).parent('li').next().find("#ranger-value").data('valuein');
+ /* console.log(pos)*/
+  $('#valuerange').val(pos);
+  });
+}
+function pushTimeCheck(){
+  $('.inin').click(function () {
   // alert()
   var number = $('#valuerange').val();
-  console.log(number); 
+
   var checkboxValues = [];
+  var tongchon;
   $('input[type="checkbox"]:checked').each(function(index, elem) {
     var result=$(elem).val().split('-');
       checkboxValues.push(parseInt(result));
       if ($(this).hasClass('fullResver')){
         alert("この時間は空いていません！")
       }else{
-        var tongchon = checkboxValues.length;
+        tongchon = checkboxValues.length;
         var start = checkboxValues[0];
         var end = checkboxValues[checkboxValues.length - 1] + 1;
-        // $('.multi-field:last-child #ranger-value').val(start+'時 - '+end+'時');
         $('.chenvalue'+number).val(start+'時 - '+end+'時');
       }
+    });
+    /*if(tongchon === undefined){
+      alert('時間選択してください。')
+    }*/
   });
-});
+}
 
-$('.inp_date').click(function () {
-  var pos = $(this).parent('li').next().find("#ranger-value").data('valuein');
-  $('#valuerange').val(pos);
-  // console.log(pos);
-});
+function selectPrice(){
+  var lookup = {
+     'price-1': ['15000円+税込'],
+     'price-2': ['16000円+税込'],
+     'price-3': ['17000円+税込'],
+     'price-4': ['18000円+税込'],
+  };
+  $('#options-price').on('change', function() {
+  var selectValue = $(this).val();
+  $('#choices-price').empty();
+   for (i = 0; i < lookup[selectValue].length; i++) {
+      $('#choices-price').append("<option value='" + lookup[selectValue][i] + "'>" + lookup[selectValue][i] + "</option>");
+   }
+  });
+}

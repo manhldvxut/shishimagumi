@@ -33,7 +33,7 @@
 <body>  
     <div class="loading-page">
         <div class="container text-center">
-            <div class="logo"><img src="../drone/images/logo-banner/logo-banner.png" class="img-fluidl" alt=""></div>
+            <div class="logo"><img src="../drone/images/logo.png" class="img-fluidl" alt=""></div>
             <div class="load-bar"></div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 col-6">
                         <div class="logo"><a href="">
-                            <img src="../drone/images/logo-banner/logo-banner.png" class="img-fluid logo-rel" alt="">
+                            <img src="../drone/images/logo.svg" class="img-fluid logo-rel" alt="">
                         </a></div>
                     </div>
                     <div class="col-md-6 col-6 text-right">
