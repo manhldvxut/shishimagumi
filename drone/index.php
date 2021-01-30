@@ -240,7 +240,7 @@
 					<div class="inp-right select-choose">
 						<select name="" id="">
 							<option value="">選択してください。</option>
-							<option value="">〒811-0203 福岡市東区塩浜1</option>
+							<option value="">福岡市東区塩浜1丁目1747-1</option>
 							<option value="">福岡県古賀市筵内2496-1</option>
 						</select>
 					</div>
@@ -263,7 +263,7 @@
 							<li>	 
 								<div class="select-choose select-choose-price" style="pointer-events: none;">
 									<select name="" id="choices-price"> 
-										<option value="" disabled selected>値段処理</option>
+										<option value="" disabled selected>値段</option>
 									</select>
 								</div>
 							</li>
@@ -338,6 +338,11 @@
 			</div>
 		</div>
 	</section>
+	<a id="back_to_top" href="javascript:void(0)" class="on" style="display: inline;">
+	    <span class="fa-stack">
+	    <i class="fa fa-arrow-up" style=""></i>
+	    </span>
+    </a>
 </main>
 <?php include 'footer.php';?>     
      

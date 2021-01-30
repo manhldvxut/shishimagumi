@@ -89,3 +89,42 @@ footer {
 .select-choose-price:after {
     display: none;
 }
+
+#back_to_top{
+    position: relative;
+    display: block;
+    z-index: 1111;
+    display: none;
+}
+#back_to_top span {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-decoration: none;
+    -o-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -webkit-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: all .2s ease 0s;
+    -moz-transition: all .2s ease 0s;
+    -o-transition: all .2s ease 0s;
+    border: 2px solid #fb7a8a;
+    background: transparent;
+    position: fixed;
+    display: inline-flex;
+    justify-content: center;
+    bottom: 180px;
+    right: 25px;
+}
+#back_to_top span i {
+    font-size: 22px;
+    -webkit-transition: color .2s ease 0s;
+    -moz-transition: color .2s ease 0s;
+    -o-transition: color .2s ease 0s;
+    color: #fb7a8a;
+    line-height: 52px;
+}
+#back_to_top:hover span {
+    background-color: #e8e8e8;
+    opacity:  .5;
+}

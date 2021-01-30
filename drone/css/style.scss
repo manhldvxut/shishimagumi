@@ -795,7 +795,7 @@ body {
             background: #ffc302;
         }
         input[type=checkbox].fullResver + label:after {
-            background: #ffc302 !important;
+            background: #e7141b !important;
         }
     }
 }
@@ -830,7 +830,7 @@ body {
     .status-2 {
         &:after {
             content: "";
-            background: #ffc302;
+            background: #e7141b;
             width: 20px;
             height: 14px;
             position: absolute;

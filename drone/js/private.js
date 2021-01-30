@@ -23,7 +23,20 @@ $(function() {
   selectPrice()
 
 
+  $('#back_to_top').click(function () {
+      $('html, body').animate({ scrollTop: 0 }, 800);
+      return false;
+  });
+
 })
+$(window).scroll(function () { // scroll page
+    if ($(this).scrollTop() > 1000) {
+        $('#back_to_top').fadeIn();
+    } else {
+        $('#back_to_top').fadeOut();
+    }
+
+});
 
 function slider(){
   var swiper = new Swiper('.gall-slide', {
@@ -93,16 +106,52 @@ function loadFirst(){
   }, 1200);
 }
 
+
 $( document ).ready(function() {
   // check time
   var thisFull = $('.fullResver')
   thisFull.click(function(){
     alert("この時間は空いていません！")
   })
+
+
+ var count = 0;
+  $('.multi-field-wrapper').each(function() {
+    var $wrapper = $('.multi-fields', this);
+    $(".add-field", $(this)).click(function(e) {
+      count += 1;
+        $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).addClass('update-date');
+        $('.multi-field:last-child .hasDatepicker').val("");
+        $('.multi-field:last-child .hasDatepicker').data('datein');$('.multi-field:last-child .hasDatepicker').data('datein',count);
+        $('.multi-field:last-child #ranger-value').val("");
+        $('.multi-field:last-child #ranger-value').attr('data-valuein',count);
+        $('.multi-field:last-child #ranger-value').addClass("chenvalue"+count);
+        $('.multi-field:last-child #ranger-value').removeClass("chenvalue0");
+        $('.update-date label b').html(' 追加日付')
+
+        $('.multi-field').each(function(){
+          console.log('multi-field')
+          if($(this).find('.inp_date')){
+            console.log('find calendar')
+            $(this).on().click(function(){
+               console.log('c')
+            })
+          }
+        })
+    });
+
+    //when remove
+    $('.multi-field .remove-field', $wrapper).click(function() {
+        if ($('.multi-field', $wrapper).length > 1)
+            $(this).parent('.multi-field').remove();
+    });
+  });
+
+
 }); 
 
 function plus(){
-  var count = 0;
+ /* var count = 0;
   $('.multi-field-wrapper').each(function() {
     var $wrapper = $('.multi-fields', this);
     $(".add-field", $(this)).click(function(e) {
@@ -122,7 +171,7 @@ function plus(){
         if ($('.multi-field', $wrapper).length > 1)
             $(this).parent('.multi-field').remove();
     });
-  });
+  });*/
 
 }
 
@@ -186,3 +235,4 @@ function selectPrice(){
    }
   });
 }
+
