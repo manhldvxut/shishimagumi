@@ -2,8 +2,8 @@
 <main>
 	<section class="banner-logo">
 		<div class="container">
-			<div class="box-logo text-center wow fadeIn">
-				<div class="avarta-logo-rout"><img src="../drone/images/logo.svg" alt=""></div>
+			<div class="box-logo text-center">
+				<div class="avarta-logo-rout wow fadeIn" data-wow-delay="1s"><img src="../drone/images/mv.png" alt=""></div>
 				<!-- <img src="../drone/images/logo-banner.png" class="img-fluid" alt="">  -->
 			</div>
 		</div>
@@ -48,11 +48,48 @@
 			</div>
 		</div>  
 	</section> 
-	<section class="box-video">
+
+	<section class="box-showroom"> 
+		<div class="container-fluid">
+			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s"> 
+				<h2><span>福岡どろーんズのビデオ</span></h2>
+			</div>
+			<div class="box-slide wow fadeIn" data-wow-delay=".25s">
+				<div class="swiper-container gall-slide">
+					<div class="swiper-wrapper">
+					    <div class="swiper-slide"><div class="swiper-slide-container">
+					    	<div class="item">
+					    		<iframe width="560" height="315" src="https://www.youtube.com/embed/sbVKVEtO7T8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					    	</div>
+					    </div></div>
+					    <div class="swiper-slide"><div class="swiper-slide-container">
+					    	<div class="item">
+					    		<iframe width="560" height="315" src="https://www.youtube.com/embed/t8T7LihhHYw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					    	</div>
+					    </div></div>
+					    <div class="swiper-slide"><div class="swiper-slide-container">
+					    	<div class="item">
+					    		<iframe width="560" height="315" src="https://www.youtube.com/embed/_yqxv8Xjn38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					    	</div>
+					    </div></div>
+					    <div class="swiper-slide"><div class="swiper-slide-container">
+					    	<div class="item">
+					    		<iframe width="560" height="315" src="https://www.youtube.com/embed/4kSknHNqPIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					    	</div>
+					    </div></div>
+					</div>
+					<div class="btn-slide swiper-button-prev"><a href="javascript:void(0)"><i class="fa fa-angle-left"></i></a></div>
+    				<div class="btn-slide swiper-button-next"><a href="javascript:void(0)"><i class="fa fa-angle-right"></i></a></div>
+				</div>
+			</div>
+		</div>  
+	</section> 
+	<!-- <section class="box-video">
 		<div class="container-fluid">
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
 				<h2><span>福岡どろーんズのビデオ</span></h2>
 			</div>
+
 			<div class="list-video">
 				<div class="row">
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".25s">
@@ -68,7 +105,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="box-form" id="revs">
 		<div class="container">
 			<div class="title text-center wow fadeInUp wHighlight" data-wow-delay=".25s">
@@ -343,6 +380,11 @@
 	    <i class="fa fa-arrow-up" style=""></i>
 	    </span>
     </a>
+    <div class="inst">
+    	<a id="back_to_tp" href="https://www.instagram.com/" target="_blank" class="on">
+		    <img src="../drone/images/ins.png" alt="">
+	    </a>
+    </div>
 </main>
 <?php include 'footer.php';?>     
      

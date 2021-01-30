@@ -253,9 +253,9 @@ footer {
 }
 
 #back_to_top span {
-  width: 52px;
-  height: 52px;
-  line-height: 52px;
+  width: 45px;
+  height: 45px;
+  line-height: 42px;
   text-decoration: none;
   border-radius: 52px;
   -webkit-transition: all .2s ease 0s;
@@ -266,22 +266,43 @@ footer {
   position: fixed;
   display: inline-flex;
   justify-content: center;
-  bottom: 180px;
+  bottom: 50px;
   right: 25px;
 }
 
 #back_to_top span i {
-  font-size: 22px;
+  font-size: 15px;
   -webkit-transition: color .2s ease 0s;
   -moz-transition: color .2s ease 0s;
   -o-transition: color .2s ease 0s;
   color: #fb7a8a;
-  line-height: 52px;
+  line-height: 40px;
 }
 
 #back_to_top:hover span {
   background-color: #e8e8e8;
   opacity: .5;
+}
+
+.inst {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  z-index: 111;
+}
+
+.inst a {
+  transform: 0.3s all;
+  width: 120px;
+  display: block !important;
+}
+
+.inst a:hover {
+  opacity: 0.8;
+}
+
+.inst a img {
+  width: 100%;
 }
 
 .tl-effect, .content-desc p {
@@ -316,7 +337,7 @@ footer {
 .banner-logo:after {
   content: "";
   width: 100%;
-  height: 370px;
+  height: 400px;
   background: #fff6e1;
   position: absolute;
   top: 0;

@@ -31,9 +31,9 @@ $(function() {
 })
 $(window).scroll(function () { // scroll page
     if ($(this).scrollTop() > 1000) {
-        $('#back_to_top').fadeIn();
+        $('#back_to_top, .inst').fadeIn();
     } else {
-        $('#back_to_top').fadeOut();
+        $('#back_to_top, .inst').fadeOut();
     }
 
 });

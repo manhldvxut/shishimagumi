@@ -97,9 +97,9 @@ footer {
     display: none;
 }
 #back_to_top span {
-    width: 52px;
-    height: 52px;
-    line-height: 52px;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
     text-decoration: none;
     -o-border-radius: 52px;
     -moz-border-radius: 52px;
@@ -113,18 +113,35 @@ footer {
     position: fixed;
     display: inline-flex;
     justify-content: center;
-    bottom: 180px;
+    bottom: 50px;
     right: 25px;
 }
 #back_to_top span i {
-    font-size: 22px;
+    font-size: 15px;
     -webkit-transition: color .2s ease 0s;
     -moz-transition: color .2s ease 0s;
     -o-transition: color .2s ease 0s;
     color: #fb7a8a;
-    line-height: 52px;
+    line-height: 40px;
 }
 #back_to_top:hover span {
     background-color: #e8e8e8;
     opacity:  .5;
+}
+.inst{
+	position:fixed;
+	bottom: 120px;
+	right: 20px;
+	z-index: 111;
+	a{
+		transform: 0.3s all;
+		&:hover{
+			opacity: 0.8;
+		}
+		width: 120px;
+		display: block !important;
+		img{
+			width: 100%;
+		}
+	}
 }
