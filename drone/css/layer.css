@@ -164,4 +164,10 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .avarta-logo-rout {
+    width: 110vw;
+  }
+}
+
 /*# sourceMappingURL=map/layer.css.map */

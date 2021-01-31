@@ -249,7 +249,7 @@
 					        			</div>
 					        		</div> 
 					        		<div class="btn-popup text-center">
-					        			<button data-dismiss="modal" class="inin">Submit</button>
+					        			<button data-dismiss="modal" class="inin">予約</button>
 					        		</div>
 					        	</div>
 					        </div>
@@ -330,7 +330,7 @@
 					</div>
 					<div class="col-md-6 wow fadeInUp wHighlight" data-wow-delay=".35s">
 						<div class="item-maps">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.7700746700953!2d130.50199941516297!3d33.740761180691855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354228370eb9f4c9%3A0x6bb9145e40b4a791!2s2496-1%20Mushirouchi%2C%20Koga%2C%20Fukuoka%20811-3121!5e0!3m2!1svi!2sjp!4v1611234046242!5m2!1svi!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1658.8830531664796!2d130.50309375654152!3d33.74086377974358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354228370eb9f4c9%3A0x6bb9145e40b4a791!2s2496-1%20Mushirouchi%2C%20Koga%2C%20Fukuoka%20811-3121!5e0!3m2!1svi!2sjp!4v1612065667816!5m2!1svi!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div>
@@ -381,7 +381,7 @@
 	    </span>
     </a>
     <div class="inst">
-    	<a id="back_to_tp" href="https://www.instagram.com/" target="_blank" class="on">
+    	<a id="back_to_tp" href="https://www.instagram.com/teamshishima/" target="_blank" class="on">
 		    <img src="../drone/images/ins.png" alt="">
 	    </a>
     </div>

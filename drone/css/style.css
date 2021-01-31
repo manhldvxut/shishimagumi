@@ -305,6 +305,12 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .avarta-logo-rout {
+    width: 110vw;
+  }
+}
+
 .tl-effect, .content-desc p {
   visibility: visible;
   -webkit-animation-fill-mode: both;
@@ -331,6 +337,7 @@ footer {
 @media (max-width: 768px) {
   .banner-logo {
     padding-top: 20vw;
+    overflow: hidden;
   }
 }
 
@@ -342,6 +349,12 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+@media (max-width: 768px) {
+  .banner-logo:after {
+    height: 52vw;
+  }
 }
 
 .banner-logo .container {

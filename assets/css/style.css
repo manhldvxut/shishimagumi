@@ -1201,3 +1201,25 @@ h1 img {
 }
 
 /*# sourceMappingURL=map/style.css.map */
+
+.inst {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  z-index: 111;
+  display: none;
+}
+
+.inst a {
+  transform: 0.3s all;
+  width: 120px;
+  display: block !important;
+}
+
+.inst a:hover {
+  opacity: 0.8;
+}
+
+.inst a img {
+  width: 100%;
+}

@@ -959,3 +959,20 @@ h1{
 		max-width: 17vw;
 	}
 }
+.inst{
+    position:fixed;
+    bottom: 120px;
+    right: 20px;
+    z-index: 111;
+    a{
+        transform: 0.3s all;
+        &:hover{
+            opacity: 0.8;
+        }
+        width: 120px;
+        display: block !important;
+        img{
+            width: 100%;
+        }
+    }
+}

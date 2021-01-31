@@ -26,7 +26,14 @@ $(document).ready(function(){
     $(".js-inkan").addClass("is-shown"); 
   },1900)
 });
+$(window).scroll(function () { // scroll page
+    if ($(this).scrollTop() > 500) {
+        $('#back_to_top, .inst').fadeIn();
+    } else {
+        $('#back_to_top, .inst').fadeOut();
+    }
 
+});
 
 /*scroll add class*/
 
