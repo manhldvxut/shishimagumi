@@ -1223,3 +1223,11 @@ h1 img {
 .inst a img {
   width: 100%;
 }
+@media(max-width: 768px){
+  .sp__fix{
+      display: block;
+  }
+  .mv__top{
+        height: 130vh;
+    }
+}
