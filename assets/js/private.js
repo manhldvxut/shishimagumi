@@ -25,6 +25,11 @@ $(document).ready(function(){
   setTimeout(function(){ 
     $(".js-inkan").addClass("is-shown"); 
   },1900)
+
+  setTimeout(function(){ 
+    $(".list-logo").addClass("active"); 
+  },3000)
+
 });
 $(window).scroll(function () { // scroll page
     if ($(this).scrollTop() > 500) {
@@ -57,9 +62,9 @@ $(window).scroll(function () { // scroll page
   });
 });
 
-$(document).ready(function() {
-	$('.logo__fishing, .logo__zkai ').ripples({
-		resolution: 256,
-		perturbance: 0.04
-	});
-});
+// $(document).ready(function() {
+// 	$('.logo__fishing, .logo__zkai ').ripples({
+// 		resolution: 256,
+// 		perturbance: 0.04
+// 	});
+// });
